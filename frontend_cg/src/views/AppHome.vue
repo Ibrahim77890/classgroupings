@@ -1,6 +1,7 @@
 <script setup lang="ts">
 // import HomeCard from '../components/cards/HomeCard.vue'
 import OverlayBox from '../components/overlays/OverlayBox.vue'
+import LabelsNavbar from '../components/icons/LabelsNavbar.vue'
 import profiles from '../assets/fakeprofile.json'
 import { ref, onMounted } from 'vue'
 
@@ -36,11 +37,17 @@ onMounted(() => {
       </section>
 
       <section class="groups-section">
+        <div class="sections-navbar">
+            <LabelsNavbar/>
+            <LabelsNavbar/>
+            <LabelsNavbar/>
+            <LabelsNavbar/> 
+        </div>
         <h2 class="sub-heading">Your Class Collaboration Hub</h2>
         <div class="groups-panel">
             <div class="h-full">
                 <div class="h-16 w-full bg-blue-200">
-                    NIgga
+                    Group Names Enrolled
                 </div>
                 <hr class="bg-black"/>
             </div>
@@ -68,16 +75,20 @@ onMounted(() => {
   @apply text-4xl sm:text-5xl md:text-5xl lg:text-5xl josefin-sans;
 }
 
+.sections-navbar{
+    @apply flex flex-row gap-4 items-center min-h-10 max-h-12 w-full overflow-auto
+}
+
 .navbar {
   @apply flex flex-row justify-between;
 }
 
 .profile {
-  @apply h-24 w-24 rounded-full border-2 border-slate-600 hover:scale-110;
+  @apply min-h-16 min-w-16 max-h-20 max-w-20 rounded-full border-2 border-slate-600 hover:scale-110;
 }
 
 .groups-section {
-  @apply h-full w-full flex gap-2 flex-col;
+  @apply h-full w-full flex gap-4 flex-col mt-2;
 }
 
 .groups-panel {
