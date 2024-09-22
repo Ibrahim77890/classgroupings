@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "username": "alice_j",
+    "email": "alice.johnson@example.com",
+    "profilePicture": "https://randomuser.me/api/portraits/women/1.jpg",
+    "bio": "Enthusiastic learner and tech lover. Always ready for new challenges!",
+    "location": "New York, USA",
+    "interests": ["Coding", "Reading", "Traveling", "Photography"],
+    "joinedDate": "2023-01-15"
+  }
+]
