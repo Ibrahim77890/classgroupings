@@ -1,7 +1,7 @@
 <script setup lang="ts">
 // import HomeCard from '../components/cards/HomeCard.vue'
 import OverlayBox from '../components/overlays/OverlayBox.vue'
-import LabelsNavbar from '../components/icons/LabelsNavbar.vue'
+import LabelsNavbar from '../components/cards/LabelsNavbar.vue'
 import profiles from '../assets/fakeprofile.json'
 import { ref, onMounted } from 'vue'
 
@@ -38,19 +38,152 @@ onMounted(() => {
 
       <section class="groups-section">
         <div class="sections-navbar">
-            <LabelsNavbar/>
-            <LabelsNavbar/>
-            <LabelsNavbar/>
-            <LabelsNavbar/> 
+          <LabelsNavbar initialMessage="Groups" />
+          <LabelsNavbar initialMessage="Register" />
         </div>
         <h2 class="sub-heading">Your Class Collaboration Hub</h2>
         <div class="groups-panel">
-            <div class="h-full">
-                <div class="h-16 w-full bg-blue-200">
-                    Group Names Enrolled
-                </div>
-                <hr class="bg-black"/>
+          <div class="h-full flex flex-col">
+            <div class="h-16 w-full flex flex-row items-center p-2 bg-blue-200 border-b-2 border-slate-400">
+              <div class="flex flex-col flex-1 montserrat">
+                <h1 class="font-bold text-lg">Group Name</h1>
+                <p class="font-medium">Latest Message</p>
+              </div>
+              <div>
+                <h1 class="p-1 h-8 w-8 flex justify-center items-center shadow-xl border-2 border-slate-700 rounded-full">10</h1>
+              </div>
             </div>
+            <!--  -->
+            <div class="h-16 w-full flex flex-row items-center p-2 bg-blue-200 border-b-2 border-slate-400">
+              <div class="flex flex-col flex-1 montserrat">
+                <h1 class="font-bold text-lg">Group Name</h1>
+                <p class="font-medium">Latest Message</p>
+              </div>
+              <div>
+                <h1 class="p-1 h-8 w-8 flex justify-center items-center shadow-xl border-2 border-slate-700 rounded-full">10</h1>
+              </div>
+            </div><div class="h-16 w-full flex flex-row items-center p-2 bg-blue-200 border-b-2 border-slate-400">
+              <div class="flex flex-col flex-1 montserrat">
+                <h1 class="font-bold text-lg">Group Name</h1>
+                <p class="font-medium">Latest Message</p>
+              </div>
+              <div>
+                <h1 class="p-1 h-8 w-8 flex justify-center items-center shadow-xl border-2 border-slate-700 rounded-full">10</h1>
+              </div>
+            </div><div class="h-16 w-full flex flex-row items-center p-2 bg-blue-200 border-b-2 border-slate-400">
+              <div class="flex flex-col flex-1 montserrat">
+                <h1 class="font-bold text-lg">Group Name</h1>
+                <p class="font-medium">Latest Message</p>
+              </div>
+              <div>
+                <h1 class="p-1 h-8 w-8 flex justify-center items-center shadow-xl border-2 border-slate-700 rounded-full">10</h1>
+              </div>
+            </div><div class="h-16 w-full flex flex-row items-center p-2 bg-blue-200 border-b-2 border-slate-400">
+              <div class="flex flex-col flex-1 montserrat">
+                <h1 class="font-bold text-lg">Group Name</h1>
+                <p class="font-medium">Latest Message</p>
+              </div>
+              <div>
+                <h1 class="p-1 h-8 w-8 flex justify-center items-center shadow-xl border-2 border-slate-700 rounded-full">10</h1>
+              </div>
+            </div><div class="h-16 w-full flex flex-row items-center p-2 bg-blue-200 border-b-2 border-slate-400">
+              <div class="flex flex-col flex-1 montserrat">
+                <h1 class="font-bold text-lg">Group Name</h1>
+                <p class="font-medium">Latest Message</p>
+              </div>
+              <div>
+                <h1 class="p-1 h-8 w-8 flex justify-center items-center shadow-xl border-2 border-slate-700 rounded-full">10</h1>
+              </div>
+            </div><div class="h-16 w-full flex flex-row items-center p-2 bg-blue-200 border-b-2 border-slate-400">
+              <div class="flex flex-col flex-1 montserrat">
+                <h1 class="font-bold text-lg">Group Name</h1>
+                <p class="font-medium">Latest Message</p>
+              </div>
+              <div>
+                <h1 class="p-1 h-8 w-8 flex justify-center items-center shadow-xl border-2 border-slate-700 rounded-full">10</h1>
+              </div>
+            </div><div class="h-16 w-full flex flex-row items-center p-2 bg-blue-200 border-b-2 border-slate-400">
+              <div class="flex flex-col flex-1 montserrat">
+                <h1 class="font-bold text-lg">Group Name</h1>
+                <p class="font-medium">Latest Message</p>
+              </div>
+              <div>
+                <h1 class="p-1 h-8 w-8 flex justify-center items-center shadow-xl border-2 border-slate-700 rounded-full">10</h1>
+              </div>
+            </div><div class="h-16 w-full flex flex-row items-center p-2 bg-blue-200 border-b-2 border-slate-400">
+              <div class="flex flex-col flex-1 montserrat">
+                <h1 class="font-bold text-lg">Group Name</h1>
+                <p class="font-medium">Latest Message</p>
+              </div>
+              <div>
+                <h1 class="p-1 h-8 w-8 flex justify-center items-center shadow-xl border-2 border-slate-700 rounded-full">10</h1>
+              </div>
+            </div><div class="h-16 w-full flex flex-row items-center p-2 bg-blue-200 border-b-2 border-slate-400">
+              <div class="flex flex-col flex-1 montserrat">
+                <h1 class="font-bold text-lg">Group Name</h1>
+                <p class="font-medium">Latest Message</p>
+              </div>
+              <div>
+                <h1 class="p-1 h-8 w-8 flex justify-center items-center shadow-xl border-2 border-slate-700 rounded-full">10</h1>
+              </div>
+            </div><div class="h-16 w-full flex flex-row items-center p-2 bg-blue-200 border-b-2 border-slate-400">
+              <div class="flex flex-col flex-1 montserrat">
+                <h1 class="font-bold text-lg">Group Name</h1>
+                <p class="font-medium">Latest Message</p>
+              </div>
+              <div>
+                <h1 class="p-1 h-8 w-8 flex justify-center items-center shadow-xl border-2 border-slate-700 rounded-full">10</h1>
+              </div>
+            </div><div class="h-16 w-full flex flex-row items-center p-2 bg-blue-200 border-b-2 border-slate-400">
+              <div class="flex flex-col flex-1 montserrat">
+                <h1 class="font-bold text-lg">Group Name</h1>
+                <p class="font-medium">Latest Message</p>
+              </div>
+              <div>
+                <h1 class="p-1 h-8 w-8 flex justify-center items-center shadow-xl border-2 border-slate-700 rounded-full">10</h1>
+              </div>
+            </div><div class="h-16 w-full flex flex-row items-center p-2 bg-blue-200 border-b-2 border-slate-400">
+              <div class="flex flex-col flex-1 montserrat">
+                <h1 class="font-bold text-lg">Group Name</h1>
+                <p class="font-medium">Latest Message</p>
+              </div>
+              <div>
+                <h1 class="p-1 h-8 w-8 flex justify-center items-center shadow-xl border-2 border-slate-700 rounded-full">10</h1>
+              </div>
+            </div><div class="h-16 w-full flex flex-row items-center p-2 bg-blue-200 border-b-2 border-slate-400">
+              <div class="flex flex-col flex-1 montserrat">
+                <h1 class="font-bold text-lg">Group Name</h1>
+                <p class="font-medium">Latest Message</p>
+              </div>
+              <div>
+                <h1 class="p-1 h-8 w-8 flex justify-center items-center shadow-xl border-2 border-slate-700 rounded-full">10</h1>
+              </div>
+            </div><div class="h-16 w-full flex flex-row items-center p-2 bg-blue-200 border-b-2 border-slate-400">
+              <div class="flex flex-col flex-1 montserrat">
+                <h1 class="font-bold text-lg">Group Name</h1>
+                <p class="font-medium">Latest Message</p>
+              </div>
+              <div>
+                <h1 class="p-1 h-8 w-8 flex justify-center items-center shadow-xl border-2 border-slate-700 rounded-full">10</h1>
+              </div>
+            </div><div class="h-16 w-full flex flex-row items-center p-2 bg-blue-200 border-b-2 border-slate-400">
+              <div class="flex flex-col flex-1 montserrat">
+                <h1 class="font-bold text-lg">Group Name</h1>
+                <p class="font-medium">Latest Message</p>
+              </div>
+              <div>
+                <h1 class="p-1 h-8 w-8 flex justify-center items-center shadow-xl border-2 border-slate-700 rounded-full">10</h1>
+              </div>
+            </div><div class="h-16 w-full flex flex-row items-center p-2 bg-blue-200 border-b-2 border-slate-400">
+              <div class="flex flex-col flex-1 montserrat">
+                <h1 class="font-bold text-lg">Group Name</h1>
+                <p class="font-medium">Latest Message</p>
+              </div>
+              <div>
+                <h1 class="p-1 h-8 w-8 flex justify-center items-center shadow-xl border-2 border-slate-700 rounded-full">10</h1>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
@@ -75,8 +208,8 @@ onMounted(() => {
   @apply text-4xl sm:text-5xl md:text-5xl lg:text-5xl josefin-sans;
 }
 
-.sections-navbar{
-    @apply flex flex-row gap-4 items-center min-h-10 max-h-12 w-full overflow-auto
+.sections-navbar {
+  @apply flex flex-row gap-4 items-center min-h-10 max-h-12 w-full overflow-auto;
 }
 
 .navbar {
